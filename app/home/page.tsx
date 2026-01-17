@@ -380,7 +380,7 @@ export default function Home() {
         >
           <div className="container mx-auto px-4 py-4 flex items-center justify-between max-w-6xl">
             <motion.h1 
-              className="text-2xl font-bold"
+              className="text-2xl font-bold text-blue-400"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
@@ -737,7 +737,7 @@ export default function Home() {
           <Card className="mt-6 backdrop-blur-lg bg-white/10 dark:bg-black/20 border-white/20">
             <CardHeader className="flex items-center justify-between">
               <div>
-                <CardTitle>Request History</CardTitle>
+                <CardTitle className="mb-1.5">Request History</CardTitle>
                 <CardDescription>Recent requests (click to load or run)</CardDescription>
               </div>
                 <div>

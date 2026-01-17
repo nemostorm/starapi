@@ -123,3 +123,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Selection highlight: blue background with white text */
+::selection {
+  background-color: #60a5fa;
+  color: white;
+}
+
